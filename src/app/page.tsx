@@ -20,12 +20,6 @@ export default function HomePage() {
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 pt-32 pb-40">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 bg-[#C8A96B]/20 border border-[#C8A96B]/30 rounded-full px-4 py-1.5 mb-8">
-              <span className="w-2 h-2 rounded-full bg-[#C8A96B]" />
-              <span className="text-[#DCC9A3] text-xs font-medium tracking-widest uppercase">
-                501(c)(3) Nonprofit · Maryland
-              </span>
-            </div>
 
             <h1
               className="text-5xl lg:text-7xl text-white leading-[1.1] mb-6 animate-fade-in-up"
