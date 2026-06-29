@@ -34,4 +34,69 @@ export default function Navbar() {
               >
                 HOME Foundation
               </div>
-              <div className="text-[#C8A96B] text-[10px] tracking-widest uppercase
+              <div className="text-[#C8A96B] text-[10px] tracking-widest uppercase font-medium">
+                Helping Others Meet Expectations
+              </div>
+            </div>
+          </Link>
+          {/* Desktop links */}
+          <div className="hidden md:flex items-center gap-8">
+            {links.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`nav-link text-sm font-medium tracking-wide transition-colors ${
+                  pathname === link.href
+                    ? "text-[#C8A96B]"
+                    : "text-[#2F2F2F] hover:text-[#1D3557]"
+                }`}
+              >
+                {link.label}
+              </Link>
+            ))}
+            <Link
+              href="/contact"
+              className="ml-2 px-5 py-2.5 bg-[#1D3557] text-white text-sm font-medium rounded-full hover:bg-[#C8A96B] transition-colors duration-300"
+            >
+              Get Involved
+            </Link>
+          </div>
+          {/* Mobile menu button */}
+          <button
+            className="md:hidden p-2 text-[#1D3557]"
+            onClick={() => setOpen(!open)}
+            aria-label="Toggle menu"
+          >
+            {open ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
+      </div>
+      {/* Mobile menu */}
+      {open && (
+        <div className="md:hidden bg-white border-t border-[#EAE6DD] shadow-lg">
+          <div className="px-6 py-6 flex flex-col gap-5">
+            {links.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => setOpen(false)}
+                className={`text-base font-medium ${
+                  pathname === link.href ? "text-[#C8A96B]" : "text-[#2F2F2F]"
+                }`}
+              >
+                {link.label}
+              </Link>
+            ))}
+            <Link
+              href="/contact"
+              onClick={() => setOpen(false)}
+              className="px-5 py-3 bg-[#1D3557] text-white text-sm font-medium rounded-full text-center hover:bg-[#C8A96B] transition-colors"
+            >
+              Get Involved
+            </Link>
+          </div>
+        </div>
+      )}
+    </nav>
+  );
+}
