@@ -11,22 +11,22 @@ const boardMembers = [
     bio: "Roy Danniell leads HOME Foundation as Executive Director and President with a vision centered on housing stability, community empowerment, and long-term opportunity for underserved individuals and families. His leadership reflects a deep commitment to building partnerships that create pathways to safe, sustainable, and affordable housing.",
   },
   {
-    name: "Donald Nuzzio Jr.",
+    name: "Don Nuzzio",
     title: "Vice President",
     initials: "DN",
-    bio: "Donald Nuzzio Jr., MRED is an affordable housing and real estate development professional with extensive experience in the preservation, financing, and development of multifamily housing communities. His work focuses on expanding affordable housing through LIHTC, USDA programs, and energy-efficient modernization initiatives.",
+    bio: "Donald Nuzzio Jr., MRED is an affordable housing and real estate development professional with extensive experience in the preservation, financing, and development of multifamily housing communities. His work focuses heavily on expanding and preserving affordable housing opportunities through innovative financing structures, public-private partnerships, and long-term community investment strategies. Donald has been involved in numerous affordable housing redevelopment and preservation initiatives throughout the Mid-Atlantic region, including projects utilizing LIHTC, USDA Rural Development programs, and energy-efficient modernization initiatives. His professional experience includes overseeing complex financing transactions, rehabilitation projects, and mixed-finance affordable housing developments designed to strengthen communities while maintaining long-term affordability. Throughout his career, Donald has demonstrated a strong commitment to sustainable housing solutions, community revitalization, and resident-centered development. His work frequently incorporates energy-efficient upgrades, accessibility improvements, and long-range preservation strategies that improve quality of life for residents while protecting affordability for future generations. Donald brings valuable expertise in housing finance, strategic development planning, construction coordination, and affordable housing policy to HOME Foundation's Board of Directors. His perspective helps support the organization's mission of creating stable and thriving communities through equitable housing opportunities.",
   },
   {
     name: "Mansur Abdul-Malik",
     title: "Secretary",
     initials: "MA",
-    bio: "Mansur Abdul-Malik is an experienced affordable housing development leader with a strong background in complex real estate finance, community development, and housing preservation. He brings expertise spanning acquisition, rehabilitation, LIHTC, tax-exempt bonds, and public-private financing structures.",
+    bio: "Mansur Abdul-Malik is an experienced affordable housing development leader with a strong background in complex real estate finance, community development, and housing preservation. He currently serves in senior leadership within the affordable housing industry, where he oversees multifamily housing developments focused on increasing access to high-quality affordable housing communities. With expertise spanning acquisition, rehabilitation, new construction, and public-private financing structures, Mansur has worked extensively with LIHTC, tax-exempt bonds, public subsidies, and layered financing models that support sustainable affordable housing development. In addition to his development leadership, Mansur has contributed to the academic and professional advancement of the industry through his involvement in real estate development education. His work reflects a commitment to strengthening communities through thoughtful planning, equitable investment, and mission-driven development practices. Mansur's leadership approach combines financial expertise with a deep understanding of the social impact of housing. His experience managing multidisciplinary development teams and navigating complex affordable housing transactions provides valuable strategic insight to HOME Foundation's Board of Directors.",
   },
   {
     name: "James Holley-Grisham",
     title: "Treasurer",
     initials: "JG",
-    bio: "James Grisham brings valuable leadership experience and a strong commitment to community advancement and housing accessibility. His professional background reflects a focus on strategic growth, operational leadership, and mission-driven collaboration aligned with HOME Foundation's goals.",
+    bio: "James Holley-Grisham brings valuable leadership experience and a strong commitment to community advancement and housing accessibility. His professional background reflects a focus on strategic growth, operational leadership, and mission-driven collaboration that aligns with HOME Foundation's goals of expanding opportunity and creating stable communities. Throughout his career, James has worked alongside organizations and stakeholders dedicated to strengthening neighborhoods and improving access to resources that support long-term community well-being. His experience includes collaborative leadership, relationship management, and supporting initiatives that prioritize sustainable growth and community impact. James is passionate about helping organizations develop thoughtful, people-centered solutions that create meaningful and lasting change. His leadership style emphasizes accountability, partnership, and service-oriented decision-making. As a member of HOME Foundation's Board of Directors, James contributes strategic insight, organizational leadership, and a commitment to advancing equitable opportunities for individuals and families through housing and community-focused initiatives.",
   },
 ];
 
@@ -180,7 +180,7 @@ export default function LeadershipPage() {
                   <div
                     className="overflow-hidden transition-all duration-500 ease-in-out"
                     style={{
-                      maxHeight: hoveredMember === member.name ? "300px" : "80px",
+                      maxHeight: hoveredMember === member.name ? "600px" : "80px",
                     }}
                   >
                     <p className="text-[#2F2F2F]/70 text-xs leading-relaxed">
