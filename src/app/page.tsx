@@ -10,7 +10,7 @@ export default function HomePage() {
           className="absolute inset-0 opacity-10"
           style={{
             backgroundImage:
-              "radial-gradient(circle at 20% 80%, #C8A96B 0%, transparent 50%), radial-gradient(circle at 80% 20%, #DCC9A3 0%, transparent 50%)",
+              "radial-gradient(circle at 20% 80%,#C8A96B 0%, transparent 50%), radial-gradient(circle at 80% 20%, #DCC9A3 0%, transparent 50%)",
           }}
         />
         <div
@@ -49,30 +49,6 @@ export default function HomePage() {
                 Our Programs
               </Link>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Impact Stats */}
-      <section className="py-20 bg-white border-b border-[#EAE6DD]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
-            {[
-              { label: "Families Served", value: "100+", sub: "and growing" },
-              { label: "Properties Preserved", value: "50+", sub: "across Maryland" },
-              { label: "Years of Impact", value: "5+", sub: "of mission-driven work" },
-            ].map((stat) => (
-              <div key={stat.label} className="py-6">
-                <div
-                  className="text-5xl font-bold text-[#1D3557] mb-2"
-                  style={{ fontFamily: "var(--font-playfair)" }}
-                >
-                  {stat.value}
-                </div>
-                <div className="font-semibold text-[#2F2F2F] mb-1">{stat.label}</div>
-                <div className="text-sm text-[#2F2F2F]/60">{stat.sub}</div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
