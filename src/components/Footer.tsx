@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -58,10 +58,6 @@ export default function Footer() {
               Contact Us
             </h4>
             <ul className="space-y-4">
-              <li className="flex items-start gap-3 text-sm text-white/70">
-                <MapPin size={16} className="text-[#C8A96B] mt-0.5 flex-shrink-0" />
-                <span>Maryland, USA</span>
-              </li>
               <li className="flex items-center gap-3 text-sm text-white/70">
                 <Mail size={16} className="text-[#C8A96B] flex-shrink-0" />
                 <a href="mailto:info@homefoundationmd.org" className="hover:text-[#C8A96B] transition-colors">
@@ -74,7 +70,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/40">
           <span>© {new Date().getFullYear()} The HOME Foundation. All rights reserved.</span>
-          <span className="text-[#C8A96B]/60">A 501(c)(3) Nonprofit Organization · Maryland</span>
+          <span className="text-[#C8A96B]/60">A 501(c)(3) Nonprofit Organization</span>
         </div>
       </div>
     </footer>
