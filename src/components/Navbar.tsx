@@ -4,6 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 
+const DONATE_URL = "https://www.zeffy.com/YOUR-DONATE-LINK-HERE"; // 👈 swap this when ready
+
 const links = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
@@ -39,6 +41,7 @@ export default function Navbar() {
               </div>
             </div>
           </Link>
+
           {/* Desktop links */}
           <div className="hidden md:flex items-center gap-8">
             {links.map((link) => (
@@ -54,13 +57,22 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
+            
+              href={DONATE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-2 px-5 py-2.5 bg-[#C8A96B] text-[#1D3557] text-sm font-semibold rounded-full hover:bg-[#DCC9A3] transition-colors duration-300"
+            >
+              Donate
+            </a>
             <Link
               href="/contact"
-              className="ml-2 px-5 py-2.5 bg-[#1D3557] text-white text-sm font-medium rounded-full hover:bg-[#C8A96B] transition-colors duration-300"
+              className="px-5 py-2.5 bg-[#1D3557] text-white text-sm font-medium rounded-full hover:bg-[#C8A96B] hover:text-[#1D3557] transition-colors duration-300"
             >
               Get Involved
             </Link>
           </div>
+
           {/* Mobile menu button */}
           <button
             className="md:hidden p-2 text-[#1D3557]"
@@ -71,6 +83,7 @@ export default function Navbar() {
           </button>
         </div>
       </div>
+
       {/* Mobile menu */}
       {open && (
         <div className="md:hidden bg-white border-t border-[#EAE6DD] shadow-lg">
@@ -87,6 +100,14 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
+            
+              href={DONATE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-5 py-3 bg-[#C8A96B] text-[#1D3557] text-sm font-semibold rounded-full text-center hover:bg-[#DCC9A3] transition-colors"
+            >
+              Donate
+            </a>
             <Link
               href="/contact"
               onClick={() => setOpen(false)}
