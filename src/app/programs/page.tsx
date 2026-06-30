@@ -17,7 +17,6 @@ const programs = [
       "Strategic site identification in underserved communities",
       "Partnership with local governments and agencies",
       "Focus on properties with existing affordable residents",
-      "Due diligence and community impact assessments",
     ],
   },
   {
@@ -29,31 +28,17 @@ const programs = [
       "Full structural and systems rehabilitation",
       "Energy-efficient upgrades and green improvements",
       "Accessibility improvements for all residents",
-      "Quality construction management and oversight",
     ],
   },
   {
     icon: Shield,
     title: "Long-Term Affordability Preservation",
     tag: "Core Program",
-    desc: "Maintaining affordability for current and future residents is central to our work. We use deed restrictions and responsible stewardship to protect housing affordability for generations.",
+    desc: "Maintaining affordability for current and future residents is central to our work.",
     details: [
-      "Deed-restricted affordability agreements",
       "Below-market rents for income-qualified households",
       "Protection against displacement and market pressures",
       "Long-range preservation planning",
-    ],
-  },
-  {
-    icon: Home,
-    title: "Safe Housing Standards",
-    tag: "Resident Services",
-    desc: "Every property we manage meets rigorous safety and habitability standards. We are committed to ensuring that every family lives in a safe, well-maintained home.",
-    details: [
-      "Regular property inspections and maintenance",
-      "Prompt response to resident needs",
-      "Code compliance and safety upgrades",
-      "Resident satisfaction and quality-of-life focus",
     ],
   },
   {
@@ -65,19 +50,6 @@ const programs = [
       "Public-private partnership development",
       "Coordination with city and county housing agencies",
       "Collaboration with community development organizations",
-      "Stakeholder engagement and community input",
-    ],
-  },
-  {
-    icon: TrendingUp,
-    title: "Housing Finance & Development",
-    tag: "Development",
-    desc: "We leverage innovative financing structures — including LIHTC, USDA programs, and layered financing models — to maximize impact and sustain affordability.",
-    details: [
-      "Low-Income Housing Tax Credit (LIHTC) projects",
-      "Public subsidy coordination and compliance",
-      "Mixed-finance affordable housing development",
-      "Long-term sustainability and asset management",
     ],
   },
 ];
@@ -102,7 +74,7 @@ export default function ProgramsPage() {
             className="text-5xl lg:text-6xl text-white leading-tight max-w-2xl mb-6"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            Our Programs &amp; Services
+            Our Programs
           </h1>
           <p className="text-white/70 text-lg max-w-xl leading-relaxed">
             Through strategic acquisition, careful rehabilitation, and responsible stewardship, we create lasting pathways to housing stability for families across Maryland.
