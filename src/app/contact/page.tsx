@@ -1,4 +1,4 @@
-import { Mail, MapPin, Heart } from "lucide-react";
+import { Mail, Heart } from "lucide-react";
 
 export const metadata = {
   title: "Contact | HOME Foundation",
@@ -54,16 +54,6 @@ export default function ContactPage() {
               <div className="space-y-6 mb-10">
                 <div className="flex items-start gap-4">
                   <div className="w-11 h-11 rounded-2xl bg-[#1D3557]/5 flex items-center justify-center flex-shrink-0">
-                    <MapPin size={18} className="text-[#C8A96B]" />
-                  </div>
-                  <div>
-                    <div className="font-semibold text-[#1D3557] mb-1">Location</div>
-                    <p className="text-[#2F2F2F]/70 text-sm">Maryland, USA</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-11 h-11 rounded-2xl bg-[#1D3557]/5 flex items-center justify-center flex-shrink-0">
                     <Mail size={18} className="text-[#C8A96B]" />
                   </div>
                   <div>
@@ -88,7 +78,6 @@ export default function ContactPage() {
                 </h3>
                 <ul className="space-y-3">
                   {[
-                    "Affordable housing inquiries and applications",
                     "Partnership and collaboration opportunities",
                     "Volunteer and community involvement",
                     "General questions about our mission",
@@ -157,7 +146,6 @@ export default function ContactPage() {
                     </label>
                     <select className="w-full px-4 py-3 rounded-xl border border-[#EAE6DD] bg-[#FAFAF7] text-[#2F2F2F] text-sm focus:outline-none focus:border-[#C8A96B] focus:ring-2 focus:ring-[#C8A96B]/20 transition-all">
                       <option value="">Select a topic…</option>
-                      <option>Housing Inquiry</option>
                       <option>Partnership Opportunity</option>
                       <option>Volunteer / Get Involved</option>
                       <option>Media / Press</option>
