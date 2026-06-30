@@ -65,12 +65,6 @@ export default function Navbar() {
             >
               Donate
             </a>
-            <Link
-              href="/contact"
-              className="px-5 py-2.5 bg-[#1D3557] text-white text-sm font-medium rounded-full hover:bg-[#C8A96B] hover:text-[#1D3557] transition-colors duration-300"
-            >
-              Get Involved
-            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -108,13 +102,6 @@ export default function Navbar() {
             >
               Donate
             </a>
-            <Link
-              href="/contact"
-              onClick={() => setOpen(false)}
-              className="px-5 py-3 bg-[#1D3557] text-white text-sm font-medium rounded-full text-center hover:bg-[#C8A96B] transition-colors"
-            >
-              Get Involved
-            </Link>
           </div>
         </div>
       )}
