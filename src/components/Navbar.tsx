@@ -57,7 +57,7 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            
+            <a
               href={DONATE_URL}
               target="_blank"
               rel="noopener noreferrer"
@@ -100,7 +100,7 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            
+            <a
               href={DONATE_URL}
               target="_blank"
               rel="noopener noreferrer"
