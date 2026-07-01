@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 
@@ -24,10 +25,15 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-full bg-[#1D3557] flex items-center justify-center flex-shrink-0">
-              <span className="text-[#C8A96B] font-bold text-sm" style={{ fontFamily: "var(--font-playfair)" }}>
-                H
-              </span>
+            <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 relative shadow-sm">
+              <Image
+                src="/hf-logo.jpg"
+                alt="HOME Foundation Logo"
+                fill
+                sizes="48px"
+                className="object-cover"
+                priority
+              />
             </div>
             <div className="leading-tight">
               <div
