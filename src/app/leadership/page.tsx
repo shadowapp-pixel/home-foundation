@@ -144,7 +144,7 @@ export default function LeadershipPage() {
               Board of Directors
             </h2>
             <p className="text-[#2F2F2F]/70 max-w-2xl mx-auto leading-relaxed">
-              Our Board of Directors provides thoughtful leadership, strategic oversight, and unwavering support for HOME Foundation&apos;s mission â guiding the organization toward sustainable growth and meaningful community impact.
+              Our Board of Directors provides thoughtful leadership, strategic oversight, and unwavering support for HOME Foundation&apos;s mission — guiding the organization toward sustainable growth and meaningful community impact.
             </p>
           </div>
 
@@ -154,7 +154,7 @@ export default function LeadershipPage() {
                 key={member.name}
                 className="w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-22px)] max-w-sm bg-[#FAFAF7] rounded-3xl border border-[#EAE6DD] overflow-hidden"
               >
-                {/* Portrait area â bigger photo */}
+                {/* Portrait area — bigger photo */}
                 <div className="h-64 bg-gradient-to-br from-[#EAE6DD] to-[#DCC9A3] flex items-center justify-center relative">
                   {member.photo ? (
                     <div className="w-36 h-36 rounded-full overflow-hidden shadow-xl relative border-4 border-white/50">
