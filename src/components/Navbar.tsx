@@ -27,11 +27,11 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-3 group">
             <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 relative shadow-sm">
               <Image
-                src="/hf-logo.png"
+                src="/hf-logo.jpg"
                 alt="HOME Foundation Logo"
                 fill
                 sizes="48px"
-                className="object-contain"
+                className="object-cover"
                 priority
               />
             </div>
