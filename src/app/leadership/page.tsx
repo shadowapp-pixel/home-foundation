@@ -2,7 +2,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-import { useState } from "react";
 
 const boardMembers = [
   {
@@ -44,8 +43,6 @@ const boardMembers = [
 ];
 
 export default function LeadershipPage() {
-  const [hoveredMember, setHoveredMember] = useState<string | null>(null);
-
   return (
     <>
       {/* Header */}
@@ -86,12 +83,12 @@ export default function LeadershipPage() {
                 {/* Portrait */}
                 <div className="lg:col-span-2 bg-gradient-to-br from-[#EAE6DD] to-[#DCC9A3] flex items-center justify-center p-12 min-h-[320px]">
                   <div className="text-center">
-                    <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4 shadow-lg relative">
+                    <div className="w-44 h-44 rounded-full overflow-hidden mx-auto mb-4 shadow-xl relative border-4 border-white/40">
                       <Image
                         src="/roy-danniell.jpg"
                         alt="Roy Danniell"
                         fill
-                        sizes="128px"
+                        sizes="176px"
                         className="object-cover"
                       />
                     </div>
@@ -162,26 +159,24 @@ export default function LeadershipPage() {
             {boardMembers.map((member) => (
               <div
                 key={member.name}
-                className="w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-22px)] max-w-sm bg-[#FAFAF7] rounded-3xl border border-[#EAE6DD] overflow-hidden card-hover group cursor-pointer"
-                onMouseEnter={() => setHoveredMember(member.name)}
-                onMouseLeave={() => setHoveredMember(null)}
+                className="w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-22px)] max-w-sm bg-[#FAFAF7] rounded-3xl border border-[#EAE6DD] overflow-hidden"
               >
-                {/* Portrait area */}
-                <div className="h-48 bg-gradient-to-br from-[#EAE6DD] to-[#DCC9A3] flex items-center justify-center relative">
+                {/* Portrait area — bigger photo */}
+                <div className="h-64 bg-gradient-to-br from-[#EAE6DD] to-[#DCC9A3] flex items-center justify-center relative">
                   {member.photo ? (
-                    <div className="w-20 h-20 rounded-full overflow-hidden shadow-md relative">
+                    <div className="w-36 h-36 rounded-full overflow-hidden shadow-xl relative border-4 border-white/50">
                       <Image
                         src={member.photo}
                         alt={member.name}
                         fill
-                        sizes="80px"
+                        sizes="144px"
                         className="object-cover"
                       />
                     </div>
                   ) : (
-                    <div className="w-20 h-20 rounded-full bg-[#1D3557] flex items-center justify-center shadow-md">
+                    <div className="w-36 h-36 rounded-full bg-[#1D3557] flex items-center justify-center shadow-xl border-4 border-white/30">
                       <span
-                        className="text-xl text-[#C8A96B] font-bold"
+                        className="text-3xl text-[#C8A96B] font-bold"
                         style={{ fontFamily: "var(--font-playfair)" }}
                       >
                         {member.initials}
@@ -194,26 +189,19 @@ export default function LeadershipPage() {
                 {/* Content */}
                 <div className="p-6">
                   <h3
-                    className="text-lg text-[#1D3557] mb-1"
+                    className="text-lg text-[#1D3557] mb-1 text-center"
                     style={{ fontFamily: "var(--font-playfair)" }}
                   >
                     {member.name}
                   </h3>
-                  <p className="text-[#C8A96B] text-xs font-semibold tracking-wide uppercase mb-4">
+                  <p className="text-[#C8A96B] text-xs font-semibold tracking-wide uppercase mb-4 text-center">
                     {member.title}
                   </p>
-                  <div
-                    className="overflow-hidden transition-all duration-500 ease-in-out"
-                    style={{
-                      maxHeight: hoveredMember === member.name ? "900px" : "80px",
-                    }}
-                  >
-                    <div className="space-y-3 text-[#2F2F2F]/70 text-xs leading-relaxed">
+                  <div className="space-y-3 text-[#2F2F2F]/70 text-xs leading-relaxed">
                       {member.bioParagraphs.map((para, i) => (
                         <p key={i}>{para}</p>
                       ))}
                     </div>
-                  </div>
                 </div>
               </div>
             ))}
