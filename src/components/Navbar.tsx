@@ -58,7 +58,7 @@ export default function Navbar() {
                   pathname === link.href
                     ? "text-[#C8A96B]"
                     : "text-[#2F2F2F] hover:text-[#1D3557]"
-                }`}
+                  }`}
               >
                 {link.label}
               </Link>
@@ -105,9 +105,9 @@ export default function Navbar() {
               target="_blank"
               rel="noopener noreferrer"
               className="px-5 py-3 bg-[#C8A96B] text-[#1D3557] text-sm font-semibold rounded-full text-center hover:bg-[#DCC9A3] transition-colors"
-            >
-              Donate
-            </a>
+              >
+                Donate
+              </a>
           </div>
         </div>
       )}
