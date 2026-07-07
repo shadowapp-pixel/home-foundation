@@ -73,10 +73,6 @@ export default function LeadershipPage() {
       {/* Executive Director */}
       <section className="py-24 bg-[#FAFAF7]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <p className="text-[#C8A96B] text-xs font-semibold tracking-widest uppercase mb-12 text-center">
-            Executive Leadership
-          </p>
-
           <div className="max-w-5xl mx-auto">
             <div className="bg-white rounded-3xl border border-[#EAE6DD] shadow-sm overflow-hidden">
               <div className="grid grid-cols-1 lg:grid-cols-5">
@@ -141,9 +137,6 @@ export default function LeadershipPage() {
       <section className="py-24 bg-white border-t border-[#EAE6DD]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-14">
-            <p className="text-[#C8A96B] text-xs font-semibold tracking-widest uppercase mb-3">
-              Governance
-            </p>
             <h2
               className="text-4xl lg:text-5xl text-[#1D3557] mb-4"
               style={{ fontFamily: "var(--font-playfair)" }}
@@ -151,7 +144,7 @@ export default function LeadershipPage() {
               Board of Directors
             </h2>
             <p className="text-[#2F2F2F]/70 max-w-2xl mx-auto leading-relaxed">
-              Our Board of Directors provides thoughtful leadership, strategic oversight, and unwavering support for HOME Foundation&apos;s mission — guiding the organization toward sustainable growth and meaningful community impact.
+              Our Board of Directors provides thoughtful leadership, strategic oversight, and unwavering support for HOME Foundation&apos;s mission â guiding the organization toward sustainable growth and meaningful community impact.
             </p>
           </div>
 
@@ -161,7 +154,7 @@ export default function LeadershipPage() {
                 key={member.name}
                 className="w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-22px)] max-w-sm bg-[#FAFAF7] rounded-3xl border border-[#EAE6DD] overflow-hidden"
               >
-                {/* Portrait area — bigger photo */}
+                {/* Portrait area â bigger photo */}
                 <div className="h-64 bg-gradient-to-br from-[#EAE6DD] to-[#DCC9A3] flex items-center justify-center relative">
                   {member.photo ? (
                     <div className="w-36 h-36 rounded-full overflow-hidden shadow-xl relative border-4 border-white/50">
