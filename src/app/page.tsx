@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative min-h-screen flex items-center overflow-hidden bg-[#1D3557]">
+      <section className="relative min-h-screen fex items-center overflow-hidden bg-[#1D3557]">
         <div
           className="absolute inset-0 opacity-10"
           style={{
@@ -17,7 +17,6 @@ export default function HomePage() {
           className="absolute bottom-0 left-0 right-0 h-32 bg-[#FAFAF7]"
           style={{ clipPath: "polygon(0 100%, 100% 0, 100% 100%)" }}
         />
-
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 pt-32 pb-40">
           <div className="max-w-3xl">
 
