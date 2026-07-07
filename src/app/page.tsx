@@ -68,7 +68,7 @@ export default function HomePage() {
               </h2>
               <div className="h-0.5 w-20 bg-gradient-to-r from-[#C8A96B] to-transparent mb-8" />
               <p className="text-[#2F2F2F]/80 text-lg leading-relaxed mb-8">
-                The HOME Foundation (Helping Others Meet Expectations) is dedicated to preserving and expanding access to safe, stable, and affordable housing for low- to middle-income individuals and families in Maryland â through the acquisition and rehabilitation of existing housing and the long-term preservation of affordability.
+                The HOME Foundation (Helping Others Meet Expectations) is dedicated to preserving and expanding access to safe, stable, and affordable housing for low- to middle-income individuals and families in Maryland — through the acquisition and rehabilitation of existing housing and the long-term preservation of affordability.
               </p>
               <Link
                 href="/about"
@@ -137,7 +137,7 @@ export default function HomePage() {
               {
                 icon: Home,
                 title: "Rehabilitation & Preservation",
-                desc: "We rehabilitate properties to meet safe and habitable living standards â energy-efficient upgrades, accessibility improvements, and modern amenities â while preserving long-term affordability.",
+                desc: "We rehabilitate properties to meet safe and habitable living standards — energy-efficient upgrades, accessibility improvements, and modern amenities — while preserving long-term affordability.",
               },
               {
                 icon: Shield,
@@ -236,7 +236,7 @@ export default function HomePage() {
             <em className="block text-[#C8A96B] not-italic">Lasting Change</em>
           </h2>
           <p className="text-white/70 text-lg mb-10 leading-relaxed">
-            Whether you are a resident seeking housing support, a partner organization, or someone who believes in our mission â we would love to hear from you.
+            Whether you are a resident seeking housing support, a partner organization, or someone who believes in our mission — we would love to hear from you.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
