@@ -29,25 +29,7 @@ export default function HomePage() {
               of Everything.
             </h1>
 
-            <p className="text-white/70 text-lg lg:text-xl leading-relaxed mb-10 max-w-xl animate-fade-in-up delay-200">
-              The HOME Foundation preserves and expands access to safe, stable, and affordable housing for low- to middle-income families across Maryland.
-            </p>
 
-            <div className="flex flex-wrap gap-4 animate-fade-in-up delay-300">
-              <Link
-                href="/about"
-                className="px-8 py-4 bg-[#C8A96B] text-[#1D3557] font-semibold rounded-full hover:bg-[#DCC9A3] transition-all duration-300 flex items-center gap-2 group"
-              >
-                Our Mission
-                <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-              </Link>
-              <Link
-                href="/programs"
-                className="px-8 py-4 border border-white/30 text-white rounded-full hover:bg-white/10 hover:border-white/60 transition-all duration-300"
-              >
-                Our Programs
-              </Link>
-            </div>
           </div>
         </div>
       </section>
@@ -68,7 +50,7 @@ export default function HomePage() {
               </h2>
               <div className="h-0.5 w-20 bg-gradient-to-r from-[#C8A96B] to-transparent mb-8" />
               <p className="text-[#2F2F2F]/80 text-lg leading-relaxed mb-8">
-                The HOME Foundation (Helping Others Meet Expectations) is dedicated to preserving and expanding access to safe, stable, and affordable housing for low- to middle-income individuals and families in Maryland — through the acquisition and rehabilitation of existing housing and the long-term preservation of affordability.
+                The HOME Foundation (Helping Others Meet Expectations) is dedicated to preserving and expanding access to safe, stable, and affordable housing for low to moderate income individuals and families in Maryland — through the acquisition and rehabilitation of existing housing and the long-term preservation of affordability.
               </p>
               <Link
                 href="/about"
