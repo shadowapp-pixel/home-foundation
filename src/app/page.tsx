@@ -119,7 +119,7 @@ export default function HomePage() {
               {
                 icon: Home,
                 title: "Rehabilitation & Preservation",
-                desc: "We rehabilitate properties to meet safe and habitable living standards — energy-efficient upgrades, accessibility improvements, and modern amenities — while preserving long-term affordability.",
+                desc: "We transform acquired properties with high-quality renovations—including energy-efficient upgrades, accessibility improvements, and modern amenities—ensuring long-term sustainability and comfort for residents.",
               },
               {
                 icon: Shield,
