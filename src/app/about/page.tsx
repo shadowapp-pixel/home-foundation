@@ -48,7 +48,7 @@ export default function AboutPage() {
               </h2>
               <div className="h-0.5 w-20 bg-gradient-to-r from-[#C8A96B] to-transparent mb-8" />
               <p className="text-[#2F2F2F]/80 text-lg leading-relaxed">
-                The mission of The HOME Foundation (Helping Others Meet Expectations) is to preserve and expand access to safe, stable, and affordable housing for low- to middle-income individuals and families in Maryland through the acquisition and rehabilitation of existing housing and the long-term preservation of affordability.
+                The mission of The HOME Foundation (Helping Others Meet Expectations) is to preserve and expand access to safe, stable, and affordable housing for low to moderate income individuals and families in Maryland through the acquisition and rehabilitation of existing housing and the long-term preservation of affordability.
               </p>
             </div>
 
