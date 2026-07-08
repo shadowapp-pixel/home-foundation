@@ -23,9 +23,6 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <p className="text-white/70 text-sm leading-relaxed max-w-xs">
-              Preserving and expanding access to safe, stable, and affordable housing for families in Maryland.
-            </p>
           </div>
 
           {/* Quick Links */}
@@ -33,7 +30,7 @@ export default function Footer() {
             <h4 className="text-[#C8A96B] text-xs font-semibold tracking-widest uppercase mb-5">
               Quick Links
             </h4>
-            <ul className="space-y-3">
+            <ul className="flex flex-wrap gap-x-6 gap-y-3">
               {[
                 { href: "/about", label: "About Us" },
                 { href: "/programs", label: "Our Programs" },
@@ -70,7 +67,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/40">
           <span>© {new Date().getFullYear()} The HOME Foundation. All rights reserved.</span>
-          <span className="text-[#C8A96B]/60">A 501(c)(3) Nonprofit Organization</span>
+          <span className="text-[#C8A96B]/60">The HOME Foundation is a registered nonprofit corporation in the State of Maryland (501c3 status pending)</span>
         </div>
       </div>
     </footer>
