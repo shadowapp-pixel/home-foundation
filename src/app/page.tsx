@@ -50,7 +50,7 @@ export default function HomePage() {
               </h2>
               <div className="h-0.5 w-20 bg-gradient-to-r from-[#C8A96B] to-transparent mb-8" />
               <p className="text-[#2F2F2F]/80 text-lg leading-relaxed mb-8">
-                The HOME Foundation (Helping Others Meet Expectations) is dedicated to preserving and expanding access to safe, stable, and affordable housing for low to moderate income individuals and families in Maryland — through the acquisition and rehabilitation of existing housing and the long-term preservation of affordability.
+                The HOME Foundation (Helping Others Meet Expectations) works to ensure that low- to moderate-income individuals and families throughout Maryland have access to safe, stable, and affordable housing by acquiring, rehabilitating, developing, and preserving quality affordable housing that strengthens individuals, families, and communities.
               </p>
               <Link
                 href="/about"
