@@ -5,7 +5,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 
-const DONATE_URL = "https://www.zeffy.com/YOUR-DONATE-LINK-HERE"; // 👈 swap this when ready
+const DONATE_URL = "https://www.zeffy.com/YOUR-DONATE-LINK-HERE"; // �� swap this when ready
 
 const links = [
   { href: "/", label: "Home" },
@@ -25,12 +25,12 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 relative shadow-sm">
+            <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 relative shadow-sm bg-[#1D3557]">
               <Image
                 src="/hf-logo.png"
                 alt="HOME Foundation Logo"
                 fill
-                sizes="48px"
+                sizes="96px"
                 className="object-cover"
                 priority
               />
