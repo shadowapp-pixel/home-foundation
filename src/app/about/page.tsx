@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 export const metadata = {
   title: "About | HOME Foundation",
   description:
-    "Learn about HOME Foundation's mission, purpose, and values — dedicated to preserving affordable housing in Maryland.",
+    "Learn about HOME Foundation — our mission, our story, and the values behind our work preserving and developing affordable housing in Maryland.",
 };
 
 export default function AboutPage() {
@@ -34,36 +34,49 @@ export default function AboutPage() {
 
       {/* Mission */}
       <section className="py-24 bg-[#FAFAF7]">
+        <div className="max-w-3xl mx-auto px-6 lg:px-8 text-center">
+          <p className="text-[#C8A96B] text-xs font-semibold tracking-widest uppercase mb-4">
+            Our Mission
+          </p>
+          <h2
+            className="text-3xl lg:text-4xl text-[#1D3557] leading-tight mb-6"
+            style={{ fontFamily: "var(--font-playfair)" }}
+          >
+            Helping Others Meet Expectations
+          </h2>
+          <div className="h-0.5 w-20 bg-gradient-to-r from-[#C8A96B] to-transparent mb-8 mx-auto" />
+          <p className="text-[#2F2F2F]/80 text-lg lg:text-xl leading-relaxed">
+            The HOME Foundation (Helping Others Meet Expectations) works to ensure that low- to moderate-income individuals and families throughout Maryland have access to safe, stable, and affordable housing by acquiring, rehabilitating, developing, and preserving quality affordable housing that strengthens individuals, families, and communities.
+          </p>
+        </div>
+      </section>
+
+      {/* Our Story / Why We Exist */}
+      <section className="py-24 bg-white border-y border-[#EAE6DD]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div>
               <p className="text-[#C8A96B] text-xs font-semibold tracking-widest uppercase mb-4">
-                Mission Statement
+                Our Story
               </p>
               <h2
                 className="text-4xl text-[#1D3557] leading-tight mb-6"
                 style={{ fontFamily: "var(--font-playfair)" }}
               >
-                Our Mission
+                Why We Exist
               </h2>
               <div className="h-0.5 w-20 bg-gradient-to-r from-[#C8A96B] to-transparent mb-8" />
-              <p className="text-[#2F2F2F]/80 text-lg leading-relaxed">
-                The mission of The HOME Foundation (Helping Others Meet Expectations) is to preserve and expand access to safe, stable, and affordable housing for low to moderate income individuals and families in Maryland through the acquisition and rehabilitation of existing housing and the long-term preservation of affordability.
-              </p>
             </div>
 
-            <div className="bg-[rgba(220,201,163,0.12)] border border-[#EAE6DD] rounded-3xl p-10">
-              <p className="text-[#C8A96B] text-xs font-semibold tracking-widest uppercase mb-4">
-                Purpose Statement
+            <div className="space-y-5 text-[#2F2F2F]/80 text-lg leading-relaxed">
+              <p>
+                Across Maryland, affordable homes are disappearing. Older properties that have quietly housed working families for decades are being sold, redeveloped, or left to deteriorate — and each one lost pushes stability further out of reach for the people who need it most.
               </p>
-              <h3
-                className="text-2xl text-[#1D3557] mb-4"
-                style={{ fontFamily: "var(--font-playfair)" }}
-              >
-                Our Purpose
-              </h3>
-              <p className="text-[#2F2F2F]/80 leading-relaxed">
-                The purpose of The HOME Foundation is to lessen neighborhood deterioration by preserving affordable housing in Maryland. The organization accomplishes this purpose by acquiring existing residential properties, rehabilitating and maintaining such properties to ensure safe and habitable living conditions while preserving long-term affordability for low- and middle-income residents.
+              <p>
+                HOME Foundation was created to change that. We believe a safe, stable, and affordable home is the foundation on which everything else is built — the ability to hold a job, raise children, pursue an education, and put down roots in a community. When housing is secure, people can meet their expectations and thrive.
+              </p>
+              <p>
+                Our approach is hands-on and practical. We acquire and rehabilitate existing housing at risk of leaving the affordable market, develop new housing in partnership with mission-aligned developers, and commit to preserving affordability for the long term. It is not just about buildings — it is about protecting opportunity, strengthening neighborhoods, and helping individuals and families build lasting stability.
               </p>
             </div>
           </div>
@@ -71,39 +84,21 @@ export default function AboutPage() {
       </section>
 
       {/* Values */}
-      <section className="py-24 bg-white border-y border-[#EAE6DD]">
+      <section className="py-24 bg-[#FAFAF7]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-14">
             <p className="text-[#C8A96B] text-xs font-semibold tracking-widest uppercase mb-3">
-              Values Statement
+              What We Believe
             </p>
             <h2
               className="text-4xl lg:text-5xl text-[#1D3557] max-w-2xl mx-auto"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              What We Believe
+              Our Core Values
             </h2>
           </div>
 
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-[#1D3557] rounded-3xl p-10 lg:p-14 text-white relative overflow-hidden">
-              <div
-                className="absolute inset-0 opacity-10"
-                style={{
-                  backgroundImage:
-                    "radial-gradient(circle at 90% 10%, #C8A96B 0%, transparent 50%)",
-                }}
-              />
-              <p className="relative z-10 text-lg lg:text-xl leading-relaxed text-white/90">
-                At The HOME Foundation (Helping Others Meet Expectations), we believe that a safe, stable, and affordable HOME is the foundation upon which individuals and families can meet expectations and thrive. Housing stability creates the conditions necessary for people to pursue education, maintain employment, care for their families, and contribute positively to their communities.
-              </p>
-              <p className="relative z-10 text-lg leading-relaxed text-white/80 mt-6">
-                Guided by this belief, we are committed to preserving and strengthening affordable housing in Maryland through responsible stewardship, long-term affordability, and equitable access — recognizing that a HOME is not just a place to live, but a critical foundation for opportunity and success.
-              </p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
                 label: "Dignity",
@@ -124,7 +119,7 @@ export default function AboutPage() {
             ].map((val) => (
               <div
                 key={val.label}
-                className="p-7 rounded-2xl border border-[#EAE6DD] hover:border-[#C8A96B] transition-all group"
+                className="p-7 rounded-2xl bg-white border border-[#EAE6DD] hover:border-[#C8A96B] transition-all group"
               >
                 <div className="w-8 h-0.5 bg-[#C8A96B] mb-5 group-hover:w-16 transition-all duration-500" />
                 <h3
@@ -162,9 +157,9 @@ export default function AboutPage() {
             </Link>
             <Link
               href="/contact"
-              className="px-8 py-4 border border-[#1D3557] text-[#1D3557] rounded-full hover:bg-[#1D3557] hover:text-white transition-all duration-300"
+              className="inline-flex items-center gap-2 px-8 py-4 border border-[#1D3557]/20 text-[#1D3557] rounded-full hover:border-[#C8A96B] transition-all duration-300"
             >
-              Contact Us
+              Get in Touch
             </Link>
           </div>
         </div>
