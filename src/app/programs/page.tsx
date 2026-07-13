@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Building2, Home, Shield, Wrench, Users, TrendingUp, ArrowRight } from "lucide-react";
+import { Building2, Home, Wrench, Users, TrendingUp, ArrowRight } from "lucide-react";
 
 export const metadata = {
   title: "Programs | HOME Foundation",
@@ -31,14 +31,14 @@ const programs = [
     ],
   },
   {
-    icon: Shield,
-    title: "Long-Term Affordability Preservation",
+    icon: Building2,
+    title: "Development & Partnerships",
     tag: "Core Program",
-    desc: "Maintaining affordability for current and future residents is central to our work.",
+    desc: "We develop new affordable housing and partner with mission-aligned developers to expand the supply of quality homes across Maryland.",
     details: [
-      "Below-market rents for income-qualified households",
-      "Protection against displacement and market pressures",
-      "Long-range preservation planning",
+      "Ground-up development of new affordable housing",
+      "Joint ventures with mission-aligned development partners",
+      "Expanding the supply of quality affordable homes",
     ],
   },
   {
