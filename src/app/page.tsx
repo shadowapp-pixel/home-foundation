@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Home, Shield, ArrowRight, Heart, Building2 } from "lucide-react";
+import { Home, ArrowRight, Heart, Building2 } from "lucide-react";
 
 export default function HomePage() {
   return (
@@ -122,9 +122,9 @@ export default function HomePage() {
                 desc: "We transform acquired properties with high-quality renovations—including energy-efficient upgrades, accessibility improvements, and modern amenities—ensuring long-term sustainability and comfort for residents.",
               },
               {
-                icon: Shield,
-                title: "Affordability Stewardship",
-                desc: "Through responsible stewardship and equitable access, we maintain long-term affordability for low- and middle-income residents, protecting housing as a critical community resource.",
+                icon: Building2,
+                title: "Development & Partnerships",
+                desc: "We develop new affordable housing and partner with mission-aligned developers, public agencies, and community organizations to expand the supply of quality homes across Maryland.",
               },
             ].map((program) => (
               <div
@@ -156,45 +156,6 @@ export default function HomePage() {
               View All Programs
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Values */}
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="text-center mb-14">
-            <p className="text-[#C8A96B] text-xs font-semibold tracking-widest uppercase mb-3">
-              What Guides Us
-            </p>
-            <h2
-              className="text-4xl lg:text-5xl text-[#1D3557]"
-              style={{ fontFamily: "var(--font-playfair)" }}
-            >
-              Our Core Values
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              { label: "Dignity", desc: "Every resident deserves to be treated with respect and compassion." },
-              { label: "Stability", desc: "Housing stability creates the foundation for opportunity and growth." },
-              { label: "Equity", desc: "We are committed to equitable access to safe and affordable homes." },
-              { label: "Stewardship", desc: "Responsible management of resources for long-term community benefit." },
-            ].map((val) => (
-              <div
-                key={val.label}
-                className="p-6 rounded-2xl border border-[#EAE6DD] hover:border-[#C8A96B] transition-colors group"
-              >
-                <div className="w-8 h-0.5 bg-[#C8A96B] mb-4 group-hover:w-16 transition-all duration-500" />
-                <h3
-                  className="text-xl text-[#1D3557] mb-2"
-                  style={{ fontFamily: "var(--font-playfair)" }}
-                >
-                  {val.label}
-                </h3>
-                <p className="text-sm text-[#2F2F2F]/70 leading-relaxed">{val.desc}</p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
