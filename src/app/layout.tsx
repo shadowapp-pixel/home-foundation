@@ -17,13 +17,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "HOME Foundation – Helping Others Meet Expectations",
+  title: "Monarch Housing Partners",
   description:
-    "The HOME Foundation preserves and expands access to safe, stable, and affordable housing for low- to middle-income individuals and families in Maryland.",
+    "Monarch Housing Partners works to ensure that low- to moderate-income individuals and families throughout Maryland have access to safe, stable, and affordable housing.",
   openGraph: {
-    title: "HOME Foundation",
+    title: "Monarch Housing Partners",
     description:
-      "Preserving affordable housing in Maryland through acquisition, rehabilitation, and long-term affordability preservation.",
+      "Expanding and preserving affordable housing in Maryland through acquisition, rehabilitation, development, and partnership.",
     type: "website",
   },
 };
