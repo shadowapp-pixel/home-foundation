@@ -1,9 +1,9 @@
 import { Mail, Heart } from "lucide-react";
 
 export const metadata = {
-  title: "Contact | HOME Foundation",
+  title: "Contact | Monarch Housing Partners",
   description:
-    "Get in touch with HOME Foundation — for housing support, partnerships, or general inquiries about our affordable housing mission in Maryland.",
+    "Get in touch with Monarch Housing Partners — for housing support, partnerships, or general inquiries about our affordable housing mission in Maryland.",
 };
 
 export default function ContactPage() {
@@ -47,7 +47,7 @@ export default function ContactPage() {
                 className="text-3xl text-[#1D3557] mb-6"
                 style={{ fontFamily: "var(--font-playfair)" }}
               >
-                Connect With HOME Foundation
+                Connect With Monarch Housing Partners
               </h2>
               <div className="h-0.5 w-20 bg-gradient-to-r from-[#C8A96B] to-transparent mb-8" />
 
