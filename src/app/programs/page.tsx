@@ -2,9 +2,9 @@ import Link from "next/link";
 import { Building2, Home, Wrench, Users, TrendingUp, ArrowRight } from "lucide-react";
 
 export const metadata = {
-  title: "Programs | HOME Foundation",
+  title: "Programs | Monarch Housing Partners",
   description:
-    "Explore HOME Foundation's programs — property acquisition, rehabilitation, and long-term affordability stewardship across Maryland.",
+    "Explore Monarch Housing Partners's programs — property acquisition, rehabilitation, and long-term affordability stewardship across Maryland.",
 };
 
 const programs = [
@@ -150,7 +150,7 @@ export default function ProgramsPage() {
                 Our model focuses on existing housing stock — rescuing properties at risk of leaving the affordable market and restoring them to safe, well-maintained homes for families who need them most.
               </p>
               <p className="text-[#2F2F2F]/80 leading-relaxed">
-                By combining financial expertise, community partnerships, and a deep commitment to mission-driven development, HOME Foundation creates durable, community-centered solutions that outlast market cycles.
+                By combining financial expertise, community partnerships, and a deep commitment to mission-driven development, Monarch Housing Partners creates durable, community-centered solutions that outlast market cycles.
               </p>
             </div>
 
