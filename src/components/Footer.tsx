@@ -16,10 +16,7 @@ export default function Footer() {
               </div>
               <div>
                 <div className="font-bold text-base" style={{ fontFamily: "var(--font-playfair)" }}>
-                  HOME Foundation
-                </div>
-                <div className="text-[#C8A96B] text-[10px] tracking-widest uppercase">
-                  Helping Others Meet Expectations
+                  Monarch Housing Partners
                 </div>
               </div>
             </div>
@@ -66,8 +63,8 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/40">
-          <span>© {new Date().getFullYear()} The HOME Foundation. All rights reserved.</span>
-          <span className="text-[#C8A96B]/60">The HOME Foundation is a registered nonprofit corporation in the State of Maryland (501c3 status pending)</span>
+          <span>© {new Date().getFullYear()} Monarch Housing Partners. All rights reserved.</span>
+          <span className="text-[#C8A96B]/60">Monarch Housing Partners is a registered nonprofit corporation in the State of Maryland (501c3 status pending)</span>
         </div>
       </div>
     </footer>

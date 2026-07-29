@@ -28,7 +28,7 @@ export default function Navbar() {
             <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 relative shadow-sm bg-[#1D3557]">
               <Image
                 src="/hf-logo.png"
-                alt="HOME Foundation Logo"
+                alt="Monarch Housing Partners Logo"
                 fill
                 sizes="96px"
                 className="object-cover"
@@ -40,10 +40,7 @@ export default function Navbar() {
                 className="text-[#1D3557] font-bold text-base tracking-wide"
                 style={{ fontFamily: "var(--font-playfair)" }}
               >
-                HOME Foundation
-              </div>
-              <div className="text-[#C8A96B] text-[10px] tracking-widest uppercase font-medium">
-                Helping Others Meet Expectations
+                Monarch Housing Partners
               </div>
             </div>
           </Link>
