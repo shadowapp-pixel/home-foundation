@@ -13,7 +13,7 @@ const boardMembers = [
       "Donald Nuzzio Jr., MRED is an affordable housing and real estate development professional with extensive experience in the preservation, financing, and development of multifamily housing communities. His work focuses heavily on expanding and preserving affordable housing opportunities through innovative financing structures, public-private partnerships, and long-term community investment strategies.",
       "Donald has been involved in numerous affordable housing redevelopment and preservation initiatives throughout the Mid-Atlantic region, including projects utilizing LIHTC, USDA Rural Development programs, and energy-efficient modernization initiatives. His professional experience includes overseeing complex financing transactions, rehabilitation projects, and mixed-finance affordable housing developments designed to strengthen communities while maintaining long-term affordability.",
       "Throughout his career, Donald has demonstrated a strong commitment to sustainable housing solutions, community revitalization, and resident-centered development. His work frequently incorporates energy-efficient upgrades, accessibility improvements, and long-range preservation strategies that improve quality of life for residents while protecting affordability for future generations.",
-      "Donald brings valuable expertise in housing finance, strategic development planning, construction coordination, and affordable housing policy to HOME Foundation's Board of Directors. His perspective helps support the organization's mission of creating stable and thriving communities through equitable housing opportunities.",
+      "Donald brings valuable expertise in housing finance, strategic development planning, construction coordination, and affordable housing policy to Monarch Housing Partners's Board of Directors. His perspective helps support the organization's mission of creating stable and thriving communities through equitable housing opportunities.",
     ],
   },
   {
@@ -25,7 +25,7 @@ const boardMembers = [
       "Mansur Abdul-Malik is an experienced affordable housing development leader with a strong background in complex real estate finance, community development, and housing preservation. He currently serves in senior leadership within the affordable housing industry, where he oversees multifamily housing developments focused on increasing access to high-quality affordable housing communities.",
       "With expertise spanning acquisition, rehabilitation, new construction, and public-private financing structures, Mansur has worked extensively with LIHTC, tax-exempt bonds, public subsidies, and layered financing models that support sustainable affordable housing development.",
       "In addition to his development leadership, Mansur has contributed to the academic and professional advancement of the industry through his involvement in real estate development education. His work reflects a commitment to strengthening communities through thoughtful planning, equitable investment, and mission-driven development practices.",
-      "Mansur's leadership approach combines financial expertise with a deep understanding of the social impact of housing. His experience managing multidisciplinary development teams and navigating complex affordable housing transactions provides valuable strategic insight to HOME Foundation's Board of Directors.",
+      "Mansur's leadership approach combines financial expertise with a deep understanding of the social impact of housing. His experience managing multidisciplinary development teams and navigating complex affordable housing transactions provides valuable strategic insight to Monarch Housing Partners's Board of Directors.",
     ],
   },
   {
@@ -34,10 +34,10 @@ const boardMembers = [
     initials: "JG",
     photo: "/james-holley-grisham.jpg",
     bioParagraphs: [
-      "James Holley-Grisham brings valuable leadership experience and a strong commitment to community advancement and housing accessibility. His professional background reflects a focus on strategic growth, operational leadership, and mission-driven collaboration that aligns with HOME Foundation's goals of expanding opportunity and creating stable communities.",
+      "James Holley-Grisham brings valuable leadership experience and a strong commitment to community advancement and housing accessibility. His professional background reflects a focus on strategic growth, operational leadership, and mission-driven collaboration that aligns with Monarch Housing Partners's goals of expanding opportunity and creating stable communities.",
       "Throughout his career, James has worked alongside organizations and stakeholders dedicated to strengthening neighborhoods and improving access to resources that support long-term community well-being. His experience includes collaborative leadership, relationship management, and supporting initiatives that prioritize sustainable growth and community impact.",
       "James is passionate about helping organizations develop thoughtful, people-centered solutions that create meaningful and lasting change. His leadership style emphasizes accountability, partnership, and service-oriented decision-making.",
-      "As a member of HOME Foundation's Board of Directors, James contributes strategic insight, organizational leadership, and a commitment to advancing equitable opportunities for individuals and families through housing and community-focused initiatives.",
+      "As a member of Monarch Housing Partners's Board of Directors, James contributes strategic insight, organizational leadership, and a commitment to advancing equitable opportunities for individuals and families through housing and community-focused initiatives.",
     ],
   },
 ];
@@ -65,7 +65,7 @@ export default function LeadershipPage() {
             Meet Our Leadership
           </h1>
           <p className="text-white/70 text-lg max-w-xl leading-relaxed">
-            HOME Foundation is guided by compassionate leaders dedicated to creating stability, opportunity, and lasting impact within the communities we serve.
+            Monarch Housing Partners is guided by compassionate leaders dedicated to creating stability, opportunity, and lasting impact within the communities we serve.
           </p>
         </div>
       </section>
@@ -108,13 +108,13 @@ export default function LeadershipPage() {
 
                   <div className="space-y-4 text-[#2F2F2F]/80 leading-relaxed text-sm mb-8">
                     <p>
-                      Roy Danniell serves as the Executive Director and President of HOME Foundation, where he leads with a vision centered on housing stability, community empowerment, and long-term opportunity for underserved individuals and families. His leadership reflects a strong commitment to building partnerships that create pathways to safe, sustainable, and affordable housing while strengthening the communities HOME Foundation serves.
+                      Roy Danniell serves as the Executive Director and President of Monarch Housing Partners, where he leads with a vision centered on housing stability, community empowerment, and long-term opportunity for underserved individuals and families. His leadership reflects a strong commitment to building partnerships that create pathways to safe, sustainable, and affordable housing while strengthening the communities Monarch Housing Partners serves.
                     </p>
                     <p>
                       With experience connected to community-focused housing initiatives and mission-driven development, Roy brings a collaborative and solutions-oriented approach to nonprofit leadership. He is passionate about helping organizations create environments where residents feel supported, valued, and positioned for success.
                     </p>
                     <p>
-                      Under his leadership, HOME Foundation continues to expand its mission of creating opportunities for individuals and families to thrive through compassionate support systems, community-centered programming, and affordable housing advocacy.
+                      Under his leadership, Monarch Housing Partners continues to expand its mission of creating opportunities for individuals and families to thrive through compassionate support systems, community-centered programming, and affordable housing advocacy.
                     </p>
                   </div>
 
@@ -144,7 +144,7 @@ export default function LeadershipPage() {
               Board of Directors
             </h2>
             <p className="text-[#2F2F2F]/70 max-w-2xl mx-auto leading-relaxed">
-              Our Board of Directors provides thoughtful leadership, strategic oversight, and unwavering support for HOME Foundation&apos;s mission — guiding the organization toward sustainable growth and meaningful community impact.
+              Our Board of Directors provides thoughtful leadership, strategic oversight, and unwavering support for Monarch Housing Partners&apos;s mission — guiding the organization toward sustainable growth and meaningful community impact.
             </p>
           </div>
 
@@ -212,7 +212,7 @@ export default function LeadershipPage() {
             Connect With Our Team
           </h2>
           <p className="text-[#2F2F2F]/70 mb-8">
-            Interested in learning more or partnering with HOME Foundation? We&apos;d love to connect.
+            Interested in learning more or partnering with Monarch Housing Partners? We&apos;d love to connect.
           </p>
           <Link
             href="/contact"
