@@ -2,9 +2,9 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata = {
-  title: "About | HOME Foundation",
+  title: "About | Monarch Housing Partners",
   description:
-    "Learn about HOME Foundation — our mission, our story, and the values behind our work preserving and developing affordable housing in Maryland.",
+    "Learn about Monarch Housing Partners — our mission, our story, and the values behind our work preserving and developing affordable housing in Maryland.",
 };
 
 export default function AboutPage() {
@@ -27,7 +27,7 @@ export default function AboutPage() {
             className="text-5xl lg:text-6xl text-white leading-tight max-w-2xl"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            About HOME Foundation
+            About Monarch Housing Partners
           </h1>
         </div>
       </section>
@@ -42,11 +42,11 @@ export default function AboutPage() {
             className="text-3xl lg:text-4xl text-[#1D3557] leading-tight mb-6"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            Helping Others Meet Expectations
+            
           </h2>
           <div className="h-0.5 w-20 bg-gradient-to-r from-[#C8A96B] to-transparent mb-8 mx-auto" />
           <p className="text-[#2F2F2F]/80 text-lg lg:text-xl leading-relaxed">
-            The HOME Foundation (Helping Others Meet Expectations) works to ensure that low- to moderate-income individuals and families throughout Maryland have access to safe, stable, and affordable housing by acquiring, rehabilitating, developing, and preserving quality affordable housing that strengthens individuals, families, and communities.
+            Monarch Housing Partners works to ensure that low- to moderate-income individuals and families throughout Maryland have access to safe, stable, and affordable housing by acquiring, rehabilitating, developing, and preserving quality affordable housing that strengthens individuals, families, and communities.
           </p>
         </div>
       </section>
@@ -73,7 +73,7 @@ export default function AboutPage() {
                 Across Maryland, affordable homes are disappearing. Older properties that have quietly housed working families for decades are being sold, redeveloped, or left to deteriorate — and each one lost pushes stability further out of reach for the people who need it most.
               </p>
               <p>
-                HOME Foundation was created to change that. We believe a safe, stable, and affordable home is the foundation on which everything else is built — the ability to hold a job, raise children, pursue an education, and put down roots in a community. When housing is secure, people can meet their expectations and thrive.
+                Monarch Housing Partners was created to change that. We believe a safe, stable, and affordable home is the foundation on which everything else is built — the ability to hold a job, raise children, pursue an education, and put down roots in a community. When housing is secure, people can meet their expectations and thrive.
               </p>
               <p>
                 Our approach is hands-on and practical. We acquire and rehabilitate existing housing at risk of leaving the affordable market, develop new housing in partnership with mission-aligned developers, and commit to preserving affordability for the long term. It is not just about buildings — it is about protecting opportunity, strengthening neighborhoods, and helping individuals and families build lasting stability.
