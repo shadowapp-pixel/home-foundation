@@ -27,7 +27,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-3 group">
             <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 relative shadow-sm bg-[#1D3557]">
               <Image
-                src="/hf-logo.png"
+                src="/mhp-logo.png"
                 alt="Monarch Housing Partners Logo"
                 fill
                 sizes="96px"
