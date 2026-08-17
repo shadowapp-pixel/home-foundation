@@ -1,4 +1,5 @@
 import { Mail, Heart } from "lucide-react";
+import ContactForm from "./ContactForm";
 
 export const metadata = {
   title: "Contact | Monarch Housing Partners",
@@ -58,11 +59,11 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="font-semibold text-[#1D3557] mb-1">Email</div>
-                    <a
-                      href="mailto:info@homefoundationmd.org"
+                    
+                      href="mailto:info@monarchhp.org"
                       className="text-[#2F2F2F]/70 text-sm hover:text-[#C8A96B] transition-colors"
                     >
-                      info@homefoundationmd.org
+                      info@monarchhp.org
                     </a>
                   </div>
                 </div>
@@ -101,78 +102,7 @@ export default function ContactPage() {
                 >
                   Send Us a Message
                 </h3>
-
-                <form className="space-y-5" action="mailto:info@homefoundationmd.org" method="get">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                    <div>
-                      <label className="block text-xs font-semibold text-[#1D3557] tracking-wide mb-2">
-                        First Name
-                      </label>
-                      <input
-                        type="text"
-                        name="first_name"
-                        placeholder="Jane"
-                        className="w-full px-4 py-3 rounded-xl border border-[#EAE6DD] bg-[#FAFAF7] text-[#2F2F2F] text-sm focus:outline-none focus:border-[#C8A96B] focus:ring-2 focus:ring-[#C8A96B]/20 transition-all"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-xs font-semibold text-[#1D3557] tracking-wide mb-2">
-                        Last Name
-                      </label>
-                      <input
-                        type="text"
-                        name="last_name"
-                        placeholder="Smith"
-                        className="w-full px-4 py-3 rounded-xl border border-[#EAE6DD] bg-[#FAFAF7] text-[#2F2F2F] text-sm focus:outline-none focus:border-[#C8A96B] focus:ring-2 focus:ring-[#C8A96B]/20 transition-all"
-                      />
-                    </div>
-                  </div>
-
-                  <div>
-                    <label className="block text-xs font-semibold text-[#1D3557] tracking-wide mb-2">
-                      Email Address
-                    </label>
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="jane@example.com"
-                      className="w-full px-4 py-3 rounded-xl border border-[#EAE6DD] bg-[#FAFAF7] text-[#2F2F2F] text-sm focus:outline-none focus:border-[#C8A96B] focus:ring-2 focus:ring-[#C8A96B]/20 transition-all"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-xs font-semibold text-[#1D3557] tracking-wide mb-2">
-                      Subject
-                    </label>
-                    <select className="w-full px-4 py-3 rounded-xl border border-[#EAE6DD] bg-[#FAFAF7] text-[#2F2F2F] text-sm focus:outline-none focus:border-[#C8A96B] focus:ring-2 focus:ring-[#C8A96B]/20 transition-all">
-                      <option value="">Select a topic…</option>
-                      <option>Partnership Opportunity</option>
-                      <option>Volunteer / Get Involved</option>
-                      <option>Media / Press</option>
-                      <option>General Question</option>
-                    </select>
-                  </div>
-
-                  <div>
-                    <label className="block text-xs font-semibold text-[#1D3557] tracking-wide mb-2">
-                      Message
-                    </label>
-                    <textarea
-                      name="message"
-                      rows={5}
-                      placeholder="Tell us how we can help…"
-                      className="w-full px-4 py-3 rounded-xl border border-[#EAE6DD] bg-[#FAFAF7] text-[#2F2F2F] text-sm focus:outline-none focus:border-[#C8A96B] focus:ring-2 focus:ring-[#C8A96B]/20 transition-all resize-none"
-                    />
-                  </div>
-
-                  <button
-                    type="submit"
-                    className="w-full px-8 py-4 bg-[#1D3557] text-white font-semibold rounded-full hover:bg-[#C8A96B] hover:text-[#1D3557] transition-all duration-300 flex items-center justify-center gap-2 group"
-                  >
-                    <Heart size={16} />
-                    Send Message
-                  </button>
-                </form>
+                <ContactForm />
               </div>
             </div>
           </div>
