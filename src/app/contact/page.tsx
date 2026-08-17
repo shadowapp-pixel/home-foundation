@@ -1,4 +1,4 @@
-import { Mail, Heart } from "lucide-react";
+import { Mail } from "lucide-react";
 import ContactForm from "./ContactForm";
 
 export const metadata = {
@@ -59,7 +59,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="font-semibold text-[#1D3557] mb-1">Email</div>
-                    
+                    <a
                       href="mailto:info@monarchhp.org"
                       className="text-[#2F2F2F]/70 text-sm hover:text-[#C8A96B] transition-colors"
                     >
