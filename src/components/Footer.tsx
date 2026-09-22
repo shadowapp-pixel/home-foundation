@@ -9,10 +9,8 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full bg-[#C8A96B]/20 border border-[#C8A96B]/30 flex items-center justify-center">
-                <span className="text-[#C8A96B] font-bold text-sm" style={{ fontFamily: "var(--font-playfair)" }}>
-                  H
-                </span>
+              <div className="w-10 h-10 rounded-full bg-white overflow-hidden flex items-center justify-center flex-shrink-0">
+                <img src="/mhp-icon.png" alt="Monarch Housing Partners" className="w-full h-full object-contain" />
               </div>
               <div>
                 <div className="font-bold text-base" style={{ fontFamily: "var(--font-playfair)" }}>
